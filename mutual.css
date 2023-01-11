@@ -91,11 +91,8 @@ nav a:hover {
         justify-content: space-evenly;
         background: transparent;
       }
-      .burger_close{
-        display: none;
-        line-height: 0px;
-        font-size: 3rem;
-      }
+
+      
       .vismenu {
         transform: translateY(-300px);
 

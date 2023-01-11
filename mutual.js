@@ -8,13 +8,10 @@ const menuIcon = document.querySelector(".burger_open");
 hamburger.addEventListener("click", toggleMenu);
 function toggleMenu() {
   if (menu.classList.contains("vismenu")) {
-    menu.classList.add("vismenu");
-    closeIcon.style.display = "hidden";
+    menu.classList.remove("vismenu");
 
   } else  {
-    menu.classList.remove("vismenu");
-    closeIcon.style.display = "none";
-    menuIcon.style.display = "block"; 
+    menu.classList.add("vismenu");
 
   }
 }
