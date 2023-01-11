@@ -48,7 +48,6 @@
 @media (max-width: 800px) {
     #projekt_grid {
         grid-template-columns: 1fr;
-        grid-template-rows: 0.75fr 1fr;
     }
     #main_grid p {
         margin-top: 0;

@@ -77,11 +77,11 @@ p {
 @media (max-width: 850px) {
     #mig_grid {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 0.5fr;
+
     }
 
     #mig_grid2 {
         grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr 1fr;
+
     }
 }
